@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Projects() {
     return (
         <Container id='projects'>
-            <p>Hello, I am Shreyansh Gupta<br/>Android Developer | React.js<br/><br/>Electronics and Communication Engineering<br/>3rd year NIT Raipur</p>
+            <p>Hello, I am Shreyansh Gupta<br/>Android Developer | React.js<br/><br/>3rd year NIT Raipur</p>
             <hr></hr>
             <h1>Projects</h1>
             <Wrap>
@@ -62,7 +62,7 @@ const Container = styled.div`
         text-transform: uppercase;
     }
     hr{
-        width: 700px;
+        width: 500px;
     }
 `
 
