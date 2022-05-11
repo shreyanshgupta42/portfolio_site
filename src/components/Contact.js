@@ -1,10 +1,11 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import styled from 'styled-components'
+import background from '../images/bg5.jpg'
 
 const Contact = () => {
     return (
-        <Container id="contact">
+        <Container id="contact" style={{backgroundImage:"url("+background+")"}}>
             <h1>Contact</h1>
             <Wrap>
                 <div>

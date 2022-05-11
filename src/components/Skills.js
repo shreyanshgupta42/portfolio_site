@@ -1,19 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
+import androidstudio from '../images/social-media.png'
+import visualstudio from '../images/covid-19.png'
+import reactjs from '../images/cloudy.png'
+import sql from '../images/speech-bubble.png'
+import git from '../images/social-media.png'
+import java from '../images/covid-19.png'
+import dsa from '../images/cloudy.png'
+import cpp from '../images/speech-bubble.png'
+import background from '../images/bg3.jpg'
 
 function Skills() {
     return (
-        <Container id="skills">
+        <Container id="skills" style={{backgroundImage:"url("+background+")"}}>
             <h1>Skills</h1>
             <Wrap>
-                <div><img src='images/android.png' alt='android'></img><h3>android studio</h3></div>
-                <div><img src='images/visual-studio.png' alt='visual-studio'></img><h3>visual studio</h3></div>
-                <div><img src='images/structure.png' alt='reactjs'></img><h3>reactjs</h3></div>
-                <div><img src='images/sql-server.png' alt='sql'></img><h3>sql</h3></div>
-                <div><img src='images/git.png' alt='git'></img><h3>git & github</h3></div>
-                <div><img src='images/java.png' alt='java'></img><h3>JAVA</h3></div>
-                <div><img src='images/git.png' alt='git'></img><h3>DSA</h3></div>
-                <div><img src='images/c-.png' alt='cpp'></img><h3>CPP</h3></div>
+                <div><img src={androidstudio} alt='android'></img><h3>android studio</h3></div>
+                <div><img src={visualstudio} alt='visual-studio'></img><h3>visual studio</h3></div>
+                <div><img src={reactjs} alt='reactjs'></img><h3>reactjs</h3></div>
+                <div><img src={sql} alt='sql'></img><h3>sql</h3></div>
+                <div><img src={git} alt='git'></img><h3>git & github</h3></div>
+                <div><img src={java} alt='java'></img><h3>JAVA</h3></div>
+                <div><img src={dsa} alt='git'></img><h3>DSA</h3></div>
+                <div><img src={cpp} alt='cpp'></img><h3>CPP</h3></div>
             </Wrap>
         </Container>
     )

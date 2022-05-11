@@ -1,10 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import styled from 'styled-components'
+import instacloneimg from '../images/social-media.png'
+import covidtrackerimg from '../images/covid-19.png'
+import weatherappimg from '../images/cloudy.png'
+import chatappimg from '../images/speech-bubble.png'
+import background from '../images/bg4.jpg'
 
 function Projects() {
     return (
-        <Container id='projects'>
+        <Container id='projects' style={{backgroundImage:"url("+background+")"}}>
             <p>Hello, I am Shreyansh Gupta<br/>Android Developer | React.js<br/><br/>3rd year NIT Raipur</p>
             <hr></hr>
             <h1>Projects</h1>
@@ -13,28 +18,28 @@ function Projects() {
                     href="https://chat-web-app-4c247.firebaseapp.com/"
                     target="_blank"
                 >
-                    <img src='images/speech-bubble.png' alt='icon'></img>
+                    <img src={chatappimg} alt='icon'></img>
                     Chat-app
                 </a>
                 <a
                     href="https://github.com/shreyanshgupta42/Insta-clone"
                     target="_blank"
                 >
-                    <img src='images/social-media.png' alt='icon'></img>
+                    <img src={instacloneimg} alt='icon'></img>
                     Instagram-clone
                 </a>
                 <a
                     href="https://shreyanshgupta42.github.io/corona2/#/"
                     target="_blank"
                 >
-                    <img src='images/covid-19.png' alt='icon'></img>
+                    <img src={covidtrackerimg} alt='icon'></img>
                     Covid Tracker
                 </a>
                 <a
                     href="https://github.com/shreyanshgupta42/Android-weather-app/tree/master"
                     target="_blank"
                 >
-                    <img src='images/cloudy.png' alt='icon'></img>
+                    <img src={weatherappimg} alt='icon'></img>
                     Weather App
                 </a>
             </Wrap>
@@ -46,7 +51,7 @@ export default Projects
 
 const Container = styled.div`
     height: 100vh;
-    background-image: url('/images/bg4.jpg');
+    background-image: url('https://drive.google.com/file/d/13p6kg25nGq3Jsobg2ZrOSyPWLSddA60B/view?usp=sharing');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
