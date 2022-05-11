@@ -12,7 +12,7 @@ import background from '../images/bg3.jpg'
 
 function Skills() {
     return (
-        <Container id="skills" style={{backgroundImage:"url("+background+")"}}>
+        <Container id="skills" style={background?{backgroundImage:"url("+background+")"}:{backgroundColor:"black"}}>
             <h1>Skills</h1>
             <Wrap>
                 <div><img src={androidstudio} alt='android'></img><h3>android studio</h3></div>

@@ -5,7 +5,7 @@ import background from '../images/bg5.jpg'
 
 const Contact = () => {
     return (
-        <Container id="contact" style={{backgroundImage:"url("+background+")"}}>
+        <Container id="contact" style={background?{backgroundImage:"url("+background+")"}:{backgroundColor:"black"}}>
             <h1>Contact</h1>
             <Wrap>
                 <div>

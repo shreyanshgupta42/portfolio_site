@@ -9,7 +9,7 @@ import background from '../images/bg4.jpg'
 
 function Projects() {
     return (
-        <Container id='projects' style={{backgroundImage:"url("+background+")"}}>
+        <Container id='projects' style={background?{backgroundImage:"url("+background+")"}:{backgroundColor:"black"}}>
             <p>Hello, I am Shreyansh Gupta<br/>Android Developer | React.js<br/><br/>3rd year NIT Raipur</p>
             <hr></hr>
             <h1>Projects</h1>
